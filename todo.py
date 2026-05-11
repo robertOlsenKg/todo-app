@@ -39,6 +39,7 @@ def remove_task(index):
 
 
 def main():
+    print("Version 1.00 ")
     parser = create_parser()
     args = parser.parse_args()
 
