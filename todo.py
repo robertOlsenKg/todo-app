@@ -16,7 +16,6 @@ def add_task(task):
 
 
 def list_tasks():
-    print("Todo List:" )
     if os.path.exists("tasks.txt"):
         with open("tasks.txt", "r") as file:
             tasks = file.readlines()
